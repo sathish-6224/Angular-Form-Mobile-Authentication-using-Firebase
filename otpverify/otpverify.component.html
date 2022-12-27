@@ -1,0 +1,14 @@
+<div class="otp">
+  <mat-card>
+<p>Enter the OTP</p>
+    <mat-card-content>
+      <ng-otp-input #ngOtpInput (onInputChange)="onOtpChange($event)" [config]="config"></ng-otp-input>
+      <button mat-flat-button color="primary" (click)="handleClick()">Verify OTP</button>
+    </mat-card-content>
+  </mat-card>
+ 
+  </div>
+
+
+
+  

@@ -1,0 +1,126 @@
+.mat-toolbar {
+  background:whitesmoke;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sign-up
+{
+  display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.mat-card {
+    max-width: 600px;
+    margin-left: 47.7em;
+    text-align: center;
+    max-height: 600px;
+  }
+  
+  .header{
+    text-align: center;
+  
+  }
+  .full-width {
+    width: 80%;
+  }
+  
+  .button-row {
+    padding-top: 5px;
+  }
+  
+  .button-row a {
+    margin-right: 8px;
+    text-align: center;
+  }
+  
+
+
+  .btn-controls .mat-mdc-unelevated-button.mat-primary
+  {
+  margin: 1rem;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  }
+
+  .mat-mdc-unelevated-button.mat-primary {
+    --mdc-filled-button-container-color: rgb(239, 232, 241);
+    --mdc-filled-button-label-text-color: black;
+}
+
+.space
+{
+flex :1 1 auto;
+}
+
+  .mat-mdc-card {
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    --mdc-elevated-card-container-color: rgb(195, 204, 209);
+    margin-left: 337px;
+    width: 50%;
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: 6em;
+
+}
+.mat-mdc-text-field-wrapper.mdc-text-field--outlined .mdc-text-field__input {
+    display: inline-block;
+    color: black;
+}
+.mat-mdc-card-content:last-child {
+    padding-bottom: 69px;
+}
+.mat-card >[_ngcontent-bsx-c102] {
+    margin-left: 7.5em;
+    
+}
+
+
+
+
+
+.mat-toolbar {
+  background:whitesmoke;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mat-mdc-unelevated-button.mat-primary {
+  --mdc-filled-button-container-color: rgb(239, 232, 241);
+  --mdc-filled-button-label-text-color: black;
+}
+
+.space
+{
+flex :1 1 auto;
+}
+.main-logo img ,.fl-logo {
+  max-height: 60px;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.btn-controls .mat-mdc-unelevated-button.mat-primary
+{
+margin: 1rem;
+display: inline-block;
+font-size: 15px;
+border-radius: 5px;
+font-weight: 600;
+}
+.mat-mdc-form-field {
+  --mat-mdc-form-field-floating-label-scale: 0.75;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  text-align: left;
+  padding: 10px;
+}
+
+

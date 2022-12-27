@@ -1,0 +1,33 @@
+
+    <link href=
+    "https://fonts.googleapis.com/icon?family=Material+Icons&display=block" 
+            rel="stylesheet">
+            <div class="bgimg">
+ <mat-card>
+    <mat-card-content>
+        <form [formGroup]="loginForm">
+      <div class="header">
+        <P>Sign in with your Mobile Number </P>
+      </div>
+      <div class="mobileinput">
+        <mat-form-field class="form-group" [ngClass]="{'has-error':!loginForm.controls['phoneNumber'].valid}" appearance="outline">
+          <mat-icon   matSuffix>phone_android</mat-icon>
+          <mat-label>Mobile.No:</mat-label>
+        
+          <input
+            formControlName="phoneNumber"
+            matInput="text" 
+            placeholder="Enter the 10 Digit Mobile Number" required autocomplete="off"
+            [(ngModel)]="phoneNumber"
+              minlength="10" maxlength="15" required>
+              <mat-error *ngIf="!loginForm.hasError('phoneNumber') && !loginForm.hasError('required')">
+                Mobile number is <strong>required</strong></mat-error>
+        </mat-form-field>
+    </div>
+        <button mat-flat-button color="primary" (click)="getOTP()">Get OTP</button>
+        <div id="sign-in-button"></div>
+        </form>
+        </mat-card-content>
+        </mat-card>
+        </div>
+  
